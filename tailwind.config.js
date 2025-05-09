@@ -27,6 +27,6 @@ export default {
       },
     },
   },
-  darkMode: "selector",
+  darkMode: "class", //原来是selector
   plugins: [],
 };
