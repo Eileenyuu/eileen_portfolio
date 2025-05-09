@@ -43,7 +43,7 @@ const About = ({ isDarkMode }) => {
           className="w-64 sm:w-80 rounded-3xl max-w-none"
         >
           <Image
-            src={assets.nikki}
+            src={assets.ailin_profile}
             alt="user_image"
             className="w-full rounded-3xl"
           />
@@ -55,11 +55,11 @@ const About = ({ isDarkMode }) => {
           className="flex-1"
         >
           <p className="mb-10 max-w-2xl font-ovo">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum
-            consequatur ullam ducimus aspernatur nemo tempore, maiores odit,
-            dignissimos suscipit molestiae veritatis vero necessitatibus fuga
-            minus praesentium voluptatum aut laudantium recusandae. Ullam ipsum
-            iusto tempora cum?
+            Self-motivated, innovative Computer Science postgraduate student,
+            with hands-on experience in building AI- powered web applications,
+            Previously working in film industry, proven ability to manage data
+            storage, data prediction, and generate workflows in large scale
+            projects in tech and art industry.
           </p>
 
           <motion.ul
@@ -72,7 +72,7 @@ const About = ({ isDarkMode }) => {
               <motion.li
                 whileHover={{ scale: 1.05 }}
                 className="border-[0.5px] border-gray-400 rounded-xl
-                p-6 cursor-pointer hover:bg-light-hover hover:-translate-y-1 duration-500
+                px-6 py-4 cursor-pointer hover:bg-light-hover hover:-translate-y-1 duration-500
                 hover:shadow-black 
                 dark:border-white/50 dark:hover:shadow-white dark:hover:bg-dark-hover/50"
                 key={index}
@@ -82,7 +82,7 @@ const About = ({ isDarkMode }) => {
                   alt={title}
                   className="w-7 mt-3"
                 />
-                <h3 className="my-4 font-semibold text-gray-700 dark:text-white">
+                <h3 className="my-3 leading-5.5 font-semibold text-gray-700 dark:text-white">
                   {title}
                 </h3>
                 <p className="text-gray-600 text-sm dark:text-white/80">
@@ -96,26 +96,32 @@ const About = ({ isDarkMode }) => {
             initial={{ y: 20, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 1.3 }}
-            className="my-6 text-gray-700 font-ovo dark:text-white/80"
+            className="my-6 text-gray-700 font-outfit dark:text-white/80"
           >
-            Tools I use
+            Tools & Framework I use
           </motion.h4>
 
           <motion.ul
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ duration: 1.5, delay: 0.6 }}
-            className="flex items-center gap-3 sm:gap-5"
+            transition={{ duration: 0.6, delay: 1.5 }}
+            className="flex flex-wrap items-center gap-3 max-w-2xl sm:gap-5"
           >
             {toolsData.map((tool, index) => (
               <motion.li
                 whileHover={{ scale: 1.05 }}
-                className="flex items-center justify-center w-12 sm:w-14 
-                aspect-square border border-gray-300 rounded-lg cursor-pointer
-                hover:-translate-y-1 duration-500"
+                className="flex items-center justify-center 
+                px-4 py-2 sm:px-5 sm:py-2.5 gap-2
+                bg-white/50 backdrop-blur-sm dark:bg-white/40
+                 border border-gray-300 rounded-full cursor-pointer
+                hover:-translate-y-1 duration-500
+                min-w-fit"
                 key={index}
               >
-                <Image src={tool} alt="Tool" className="w-5 sm:w-7" />
+                <Image src={tool.icon} alt="Tool" className="w-5 sm:w-7" />
+                <span className="text-xs sm:text-sm font-medium text-gray-700 dark:text-white">
+                  {tool.title}
+                </span>
               </motion.li>
             ))}
           </motion.ul>

@@ -18,7 +18,7 @@ const Footer = ({ isDarkMode }) => {
             alt="mail_icon"
             className="w-6"
           />
-          yolipuyu@gmail.com
+          axy483@student.bham.ac.uk
         </div>
       </div>
 
@@ -38,7 +38,7 @@ const Footer = ({ isDarkMode }) => {
           </li>
           <li>
             <a traget="_blank" href="https://github.com/Eileenyuu">
-              Github
+              GitHub
             </a>
           </li>
         </ul>

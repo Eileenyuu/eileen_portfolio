@@ -34,7 +34,7 @@ const Header = () => {
         transition={{ duration: 0.8, delay: 0.5 }}
         className="text-3xl sm:text-6xl lg:text-[66px] font-ovo leading-[1.2]"
       >
-        Computer Science student based in Birmingham
+        Computer Science Postgraduate Student
       </motion.h1>
       <motion.p
         initial={{ opacity: 0 }}
@@ -42,9 +42,9 @@ const Header = () => {
         transition={{ duration: 0.6, delay: 0.7 }}
         className="max-w-2xl mx-auto font-ovo"
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore totam
-        tenetur dicta reiciendis veniam odio temporibus corporis! Recusandae,
-        nemo accusantium.
+        MSc Computer Science @ University of Birmingham <br /> Currently
+        exploring opportunities in software development. Aiming to be a
+        full-stack engineer.
       </motion.p>
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
         <motion.a
@@ -67,7 +67,7 @@ const Header = () => {
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6, delay: 1 }}
-          href="/AilinYu_CV_Apr.pdf"
+          href="/AilinYu_CV_May.pdf"
           download
           className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black"
         >

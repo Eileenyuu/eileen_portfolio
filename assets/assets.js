@@ -38,6 +38,13 @@ import right_arrow from "./right-arrow.png";
 import send_icon from "./send-icon.png";
 import right_arrow_bold from "./right-arrow-bold.png";
 import right_arrow_bold_dark from "./right-arrow-bold-dark.png";
+import vercel from "./vercel.svg";
+import react from "./React.png";
+import nextjs from "./Next.js.png";
+import flask from "./Flask.png";
+import tailwind from "./TailwindCSS.png";
+import bootstrap from "./Bootstrap.png";
+import ailin_profile from "./ailin_profile.png";
 
 export const assets = {
   user_image,
@@ -80,29 +87,39 @@ export const assets = {
   send_icon,
   right_arrow_bold,
   right_arrow_bold_dark,
+  vercel,
+  react,
+  nextjs,
+  flask,
+  tailwind,
+  bootstrap,
+  ailin_profile,
 };
 
 export const workData = [
   {
-    title: "Frontend project",
-    description: "Web Design",
-    bgImage: "/work-1.png",
+    title: "That's Awkward",
+    description: "Text to voice app",
+    bgImage: "/awkwardlogo.png",
+    link: "https://devpost.com/software/thatsawkward",
   },
   {
-    title: "Geo based app",
-    description: "Mobile App",
-    bgImage: "/work-2.png",
+    title: "SuperQA",
+    description: "Q&A web app",
+    bgImage: "/superQA.jpg",
+    link: "https://github.com/Eileenyuu/SuperQA",
   },
   {
-    title: "Photography site",
-    description: "Web Design",
-    bgImage: "/work-3.png",
+    title: "UniSupport",
+    description: "Study support system",
+    bgImage: "/UniSupport.png",
+    link: "https://github.com/LuoQaxa/bus_a2",
   },
-  {
-    title: "UI/UX designing",
-    description: "UI/UX Design",
-    bgImage: "/work-4.png",
-  },
+  // {
+  //   title: "UI/UX designing",
+  //   description: "UI/UX Design",
+  //   bgImage: "/work-4.png",
+  // },
 ];
 
 export const serviceData = [
@@ -138,27 +155,35 @@ export const infoList = [
   {
     icon: assets.code_icon,
     iconDark: assets.code_icon_dark,
-    title: "Languages",
-    description: "HTML, CSS, JavaScript React Js, Next Js",
+    title: "Programming Languages",
+    description: <>Python, JavaScript, C</>,
   },
   {
     icon: assets.edu_icon,
     iconDark: assets.edu_icon_dark,
     title: "Education",
-    description: "BA in Cinema and Television MSc of Computer Science",
+    description: (
+      <>
+        MSc of Computer Science <br /> BA in Cinema and Television
+      </>
+    ),
   },
   {
     icon: assets.project_icon,
     iconDark: assets.project_icon_dark,
-    title: "Projects",
-    description: "Built more than 5 projects",
+    title: "Languages",
+    description: "English, Chinese, Cantonese",
   },
 ];
 
 export const toolsData = [
-  assets.vscode,
-  assets.firebase,
-  assets.mongodb,
-  assets.figma,
-  assets.git,
+  { icon: assets.react, title: "React" },
+  { icon: assets.flask, title: "Flask" },
+  { icon: assets.nextjs, title: "Next.js" },
+  { icon: assets.tailwind, title: "TailwindCSS" },
+  { icon: assets.bootstrap, title: "Bootstrap" },
+  { icon: assets.vercel, title: "Vercel" },
+  { icon: assets.vscode, title: "VS Code" },
+  { icon: assets.git, title: "Git" },
+  ,
 ];

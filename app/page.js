@@ -7,7 +7,6 @@ import Work from "./components/Work";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { useEffect, useState } from "react";
-import ThemeScript from "./components/ThemeScript";
 
 export default function Home() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -36,11 +35,9 @@ export default function Home() {
 
   return (
     <>
-      <ThemeScript />
       <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
       <Header isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
       <About isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
-      <Services isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
       <Work isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
       <Contact isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
       <Footer isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
