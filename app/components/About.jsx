@@ -56,7 +56,7 @@ const About = ({ isDarkMode }) => {
         >
           <p className="mb-10 max-w-2xl font-ovo">
             Self-motivated, innovative Computer Science postgraduate student,
-            with hands-on experience in building AI- powered web applications,
+            with hands-on experience in building AI-powered web applications,
             Previously working in film industry, proven ability to manage data
             storage, data prediction, and generate workflows in large scale
             projects in tech and art industry.

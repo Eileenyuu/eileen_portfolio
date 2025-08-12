@@ -44,6 +44,8 @@ import nextjs from "./Next.js.png";
 import flask from "./Flask.png";
 import tailwind from "./TailwindCSS.png";
 import bootstrap from "./Bootstrap.png";
+import fastapi from "./FastAPI.png";
+import html from "./HTML5.png";
 import ailin_profile from "./ailin_profile.png";
 
 export const assets = {
@@ -93,6 +95,8 @@ export const assets = {
   flask,
   tailwind,
   bootstrap,
+  fastapi,
+  html,
   ailin_profile,
 };
 
@@ -178,8 +182,10 @@ export const infoList = [
 
 export const toolsData = [
   { icon: assets.react, title: "React" },
+  { icon: assets.fastapi, title: "FastAPI" },
   { icon: assets.flask, title: "Flask" },
   { icon: assets.nextjs, title: "Next.js" },
+  { icon: assets.html, title: "HTML5" },
   { icon: assets.tailwind, title: "TailwindCSS" },
   { icon: assets.bootstrap, title: "Bootstrap" },
   { icon: assets.vercel, title: "Vercel" },
