@@ -18,7 +18,7 @@ const Footer = ({ isDarkMode }) => {
             alt="mail_icon"
             className="w-6"
           />
-          axy483@student.bham.ac.uk
+          ailiny25@outlook.com
         </div>
       </div>
 
