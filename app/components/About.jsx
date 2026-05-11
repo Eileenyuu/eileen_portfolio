@@ -58,8 +58,8 @@ const About = ({ isDarkMode }) => {
             Self-motivated, innovative Computer Science postgraduate student,
             with hands-on experience in building AI-powered web applications,
             Previously working in film industry, proven ability to manage data
-            storage, data prediction, and generate workflows in large scale
-            projects in tech and art industry.
+            storage, data prediction, and generate automatic workflows in large
+            scale projects in tech and art industry.
           </p>
 
           <motion.ul

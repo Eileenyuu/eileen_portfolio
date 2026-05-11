@@ -32,9 +32,9 @@ const Header = () => {
         initial={{ y: -30, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8, delay: 0.5 }}
-        className="text-3xl sm:text-6xl lg:text-[66px] font-ovo leading-[1.2]"
+        className="text-3xl sm:text-6xl lg:text-[60px] font-ovo leading-[1.2]"
       >
-        Computer Science Postgraduate Student
+        AI-Native Software Engineer
       </motion.h1>
       <motion.p
         initial={{ opacity: 0 }}
@@ -43,8 +43,9 @@ const Header = () => {
         className="max-w-2xl mx-auto font-ovo"
       >
         MSc Computer Science @ University of Birmingham <br /> Currently
-        exploring opportunities in software development and AI Agents. Aiming to
-        be a AI engineer.
+        exploring opportunities in software development and AI Agents.
+        Confidently working with trending AI tools like Hermes Agent, Codex,
+        Claude Code etc.
       </motion.p>
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
         <motion.a
