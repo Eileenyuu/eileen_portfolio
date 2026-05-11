@@ -114,10 +114,10 @@ export const workData = [
     link: "https://github.com/Eileenyuu/SuperQA",
   },
   {
-    title: "UniSupport",
-    description: "Study support system",
+    title: "Learning Management System",
+    description: "LMS for Company",
     bgImage: "/UniSupport.png",
-    link: "https://github.com/LuoQaxa/bus_a2",
+    link: "https://github.com/Wepply-Stack/lms-bootcamp-project",
   },
   // {
   //   title: "UI/UX designing",

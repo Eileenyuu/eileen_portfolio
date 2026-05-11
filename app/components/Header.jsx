@@ -43,8 +43,8 @@ const Header = () => {
         className="max-w-2xl mx-auto font-ovo"
       >
         MSc Computer Science @ University of Birmingham <br /> Currently
-        exploring opportunities in software development. Aiming to be a
-        full-stack engineer.
+        exploring opportunities in software development and AI Agents. Aiming to
+        be a AI engineer.
       </motion.p>
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
         <motion.a
@@ -67,7 +67,7 @@ const Header = () => {
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6, delay: 1 }}
-          href="/CV_Ailin_JAN.pdf"
+          href="/CV_AilinYu_0508.pdf"
           download
           className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black"
         >
